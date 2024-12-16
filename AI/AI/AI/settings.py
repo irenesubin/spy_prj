@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'AI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test_db',
-        'USER': 'root',
-        'PASSWORD': 'B7?U=843fDBd',
-        'HOST': '223.130.154.205',
+        'NAME': 'yourdb table name',
+        'USER': 'yourdb user name',
+        'PASSWORD': 'yourdb pw',
+        'HOST': 'yourdb ip address',
         'PORT': '3306',
         #####################
         #'OPTIONS': {
@@ -138,5 +138,5 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-OPENAI_API_KEY = os.getenv('sk-svcacct-GW4cfjbnUEw2biVUin8rsjjO_Qcv_V9mXAXr5PpmOJMRPL4wCjjIGemD1RhUFV8gIktT3BlbkFJPW7cxmlY-m2V9Hq6H8SHmOI3t67vYuQqYaFnDMAwvKdU7CiC7x2tdfPHsqC5iLH54AA')
+OPENAI_API_KEY = os.getenv#('your openapi key')
 
